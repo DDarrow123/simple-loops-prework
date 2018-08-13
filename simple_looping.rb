@@ -1,7 +1,8 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  7.times do
+  number_of_times = 0
+  
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
   # The integer is the number of times the loops should puts out the phrase
@@ -17,7 +18,7 @@ def times_iterator(number_of_times)
   7.times do
   # code your solution here using the "times" keyword
   puts "Welcome to Flatiron School's Web Development Course!"
-  end 
+  end
 end
 
 def while_iterator(number_of_times)
