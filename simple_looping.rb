@@ -3,6 +3,8 @@
 def loop_iterator(number_of_times)
   number_of_times = 0
 
+  loop do
+
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
   # The integer is the number of times the loops should puts out the phrase
@@ -15,4 +17,5 @@ def loop_iterator(number_of_times)
   if counter >= 7
     break
   end
+end
 end
